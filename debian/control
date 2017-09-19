@@ -1,0 +1,30 @@
+Source: scriptcommunicator
+Section: electronics
+Priority: optional
+Maintainer: Salvador E. Tropea <salvador@inti.gob.ar>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.7
+Homepage: https://sourceforge.net/projects/scriptcommunicator/
+
+Package: scriptcommunicator
+Architecture: any
+Depends: ${shlibs:Depends}
+Suggests: qt5-image-formats-plugins, libqt5gui5, libqt5printsupport5, libqt5sql5-sqlite, libqt5sql5-mysql, libqt5sql5-psql
+Description: Scriptable data terminal which supports several interfaces
+ ScriptCommunicator is a scriptable cross-platform data terminal which supports serial port (RS232, USB to serial), UDP, TCP client/server, SPI, I2C and CAN.
+ .
+ All sent and received data can be shown in a console and can be logged in
+ an html and a text log.
+ .
+ In addition to the simple sending and receiving of data ScriptCommunicator
+ has a QtScript (similar to JavaScript) interface.
+ This script interface has following features:
+ - Scripts can send and receive data with the main interface.
+ - In addition to the main interface scripts can create and use own
+   interfaces (serial port (RS232, USB to serial), UDP, TCP client,
+   TCP server, PCAN and SPI/I2C).
+ - Scripts can use their own GUI (GUI files which have been created
+   with QtDesigner (is included) or QtCreator).
+ - Multiple plot windows can be created by scripts (QCustomPlot from
+   Emanuel Eichhammer is used)
+

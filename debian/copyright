@@ -1,0 +1,12 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ScriptCommunicator
+Source: https://sourceforge.net/projects/scriptcommunicator/
+
+Files: *
+Copyright: 2014-2017 Stefan Zieker
+License: GPL-3
+
+Files: debian/*
+Copyright: 2017 Salvador E. Tropea <salvador@inti.gob.ar>
+License: public-domain
+
